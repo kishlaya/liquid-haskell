@@ -24,3 +24,13 @@ size :: [a] -> Int
 size [] = 0
 size (x:xs) = 1 + size xs
 {-@ measure size @-}
+
+
+
+
+-----------------------------------------------
+
+
+-- Now we can use this to create a size safe List API
+-- Dimension safe Vector API
+-- Dimension safe Matrix API
